@@ -1,0 +1,187 @@
+/*标记*/
+.marker-container1 {
+    position: absolute;
+    left: 39%; /* Adjust the left position as needed */
+    top: 30.6%; /* Adjust the top position as needed */
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: column-reverse;
+    z-index: 1;
+}
+
+/* Style for the marker dot */
+.marker-dot1 {
+    width: 8px;
+    height: 8px;
+    background-color: #815c94; /* Adjust the dot color as needed */
+    border-radius: 50%;
+    margin-right: 4px; /* Adjust the space between text and dot */
+}
+
+/* Style for the marker text */
+.marker-text1 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #815c94; /* Marker text color */
+}
+
+/*大连*/
+.marker-container2 {
+    position: absolute;
+    left: 40%; /* Adjust the left position as needed */
+    top: 24%; /* Adjust the top position as needed */
+    display: flex;
+    /*align-items: center;*/
+    flex-direction: column-reverse;
+    z-index: 1;
+}
+
+/* Style for the marker dot */
+.marker-dot2 {
+    width: 8px;
+    height: 8px;
+    background-color: #FF5733; /* Adjust the dot color as needed */
+    border-radius: 50%;
+    margin-right: 4px; /* Adjust the space between text and dot */
+}
+
+/* Style for the marker text */
+.marker-text2 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FF5733; /* Marker text color */
+}
+
+/*杭州*/
+.marker-container3 {
+    position: absolute;
+    left: 37%; /* Adjust the left position as needed */
+    top: 43%; /* Adjust the top position as needed */
+    display: flex;
+    align-items: baseline;
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+
+/* Style for the marker dot */
+.marker-dot3 {
+    width: 8px;
+    height: 8px;
+    background-color: red; /* Adjust the dot color as needed */
+    border-radius: 50%;
+    margin-right: 4px; /* Adjust the space between text and dot */
+}
+
+/* Style for the marker text */
+.marker-text3 {
+    font-weight: bold;
+    font-size: 14px;
+    color: red; /* Marker text color */
+}
+
+/*上海*/
+.marker-container4 {
+    position: absolute;
+    left: 38%; /* Adjust the left position as needed */
+    top: 41%; /* Adjust the top position as needed */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+
+/* Style for the marker dot */
+.marker-dot4 {
+    width: 8px;
+    height: 8px;
+    background-color: red; /* Adjust the dot color as needed */
+    border-radius: 50%;
+    margin-right: 4px; /* Adjust the space between text and dot */
+}
+
+/* Style for the marker text */
+.marker-text4 {
+    font-weight: bold;
+    font-size: 14px;
+    color: red; /* Marker text color */
+}
+
+/*福州*/
+.marker-container5 {
+    position: absolute;
+    left: 36.5%; /* Adjust the left position as needed */
+    top: 51%; /* Adjust the top position as needed */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+
+/* Style for the marker dot */
+.marker-dot5 {
+    width: 8px;
+    height: 8px;
+    background-color: #4CAF50; /* Adjust the dot color as needed */
+    border-radius: 50%;
+    margin-right: 4px; /* Adjust the space between text and dot */
+}
+
+/* Style for the marker text */
+.marker-text5 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #4CAF50; /* Marker text color */
+}
+
+/*香港*/
+.marker-container6 {
+    position: absolute;
+    left: 32.5%; /* Adjust the left position as needed */
+    top: 57.5%; /* Adjust the top position as needed */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+
+/* Style for the marker dot */
+.marker-dot6 {
+    width: 8px;
+    height: 8px;
+    background-color: #FF9800; /* Adjust the dot color as needed */
+    border-radius: 50%;
+    margin-right: 4px; /* Adjust the space between text and dot */
+}
+
+/* Style for the marker text */
+.marker-text6 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #FF9800; /* Marker text color */
+}
+/*海口*/
+.marker-container7 {
+    position: absolute;
+    left: 29.5%; /* Adjust the left position as needed */
+    top: 62%; /* Adjust the top position as needed */
+    display: flex;
+    align-items: flex-end;
+    flex-direction: row-reverse;
+    z-index: 1;
+}
+
+/* Style for the marker dot */
+.marker-dot7 {
+    width: 8px;
+    height: 8px;
+    background-color: #9C27B0; /* Adjust the dot color as needed */
+    border-radius: 50%;
+    margin-right: 4px; /* Adjust the space between text and dot */
+}
+
+/* Style for the marker text */
+.marker-text7 {
+    font-weight: bold;
+    font-size: 14px;
+    color: #9C27B0; /* Marker text color */
+}

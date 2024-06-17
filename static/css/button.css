@@ -1,0 +1,297 @@
+.button {
+    position: absolute;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #ff0081;
+}
+
+#startPredictionButton {
+    top: 35px; /* 距离顶部的距离 */
+    right: 50px; /* 距离右侧的距离 */
+    background-color: #ff0081;
+    color: #fff;
+    z-index: 10;
+}
+
+
+#datePicker {
+    position: absolute;
+    top: 90px;
+    right: 20px;
+    background-color: #ff0081;
+    color: #fff;
+    z-index: 10;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button::before {
+    position: absolute;
+    content: '';
+    left: -2em;
+    right: -2em;
+    top: -2em;
+    bottom: -2em;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+        /*  */ radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%),
+    radial-gradient(circle, #ff0081 20%, transparent 20%);
+    background-position: 5% 44%, -5% 20%, 7% 5%, 23% 0%, 37% 0, 58% -2%, 80% 0%, 100% -2%, -5% 80%,
+    100% 55%, 2% 100%, 23% 100%, 42% 100%, 60% 95%, 70% 96%, 100% 100%;
+    background-size: 0% 0%;
+    transition: background-position .5s ease-in-out, background-size .75s ease-in-out;
+}
+
+.button:active::before {
+    transition: 0s;
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%,
+    15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+    background-position: 18% 40%, 20% 31%, 30% 30%, 40% 30%, 50% 30%, 57% 30%, 65% 30%, 80% 32%, 15% 60%,
+    83% 60%, 18% 70%, 25% 70%, 41% 70%, 50% 70%, 64% 70%, 80% 71%;
+}
+#startAnalysisBtn, .coordinate-input {
+    position: absolute;
+    right: 25px;
+    z-index: 20;
+    top: 100px;
+}
+
+.coordinate-input {
+    top: 210px; /* Adjust the top position according to your preference */
+    z-index: 20;
+}
+#startAnalysisBtn {
+    top: -55px; /* Adjust the top position according to your preference */
+    background-color: #2980b9;
+    color: #fff;
+    z-index: 10;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#startAnalysisBtn::before {
+    position: absolute;
+    content: '';
+    left: -2em;
+    right: -2em;
+    top: -2em;
+    bottom: -2em;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+        /*  */ radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%),
+    radial-gradient(circle, #2980b9 20%, transparent 20%);
+    background-position: 5% 44%, -5% 20%, 7% 5%, 23% 0%, 37% 0, 58% -2%, 80% 0%, 100% -2%, -5% 80%,
+    100% 55%, 2% 100%, 23% 100%, 42% 100%, 60% 95%, 70% 96%, 100% 100%;
+    background-size: 0% 0%;
+    transition: background-position .5s ease-in-out, background-size .75s ease-in-out;
+}
+
+#startAnalysisBtn:active::before {
+    transition: 0s;
+    background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%,
+    15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+    background-position: 18% 40%, 20% 31%, 30% 30%, 40% 30%, 50% 30%, 57% 30%, 65% 30%, 80% 32%, 15% 60%,
+    83% 60%, 18% 70%, 25% 70%, 41% 70%, 50% 70%, 64% 70%, 80% 71%;
+}
+
+.button::after {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    opacity: 0;
+    box-shadow: 0 0 0 6px #ff0081; /* 使用您的主色变量，这里假设为 #ff0081 */
+    transition: 0.3s;
+}
+
+.button:hover::after {
+    opacity: 0.2; /* 调整悬停时的透明度 */
+}
+
+.button:active::after {
+    box-shadow: none;
+    opacity: 0.4;
+    transition: 0s; /* 取消过渡 */
+}
+
+#startAnalysisBtn::after {
+    content: '';
+    position: absolute;
+    left: -6px;
+    top: -6px;
+    right: -6px;
+    bottom: -6px;
+    opacity: 0;
+    box-shadow: 0 0 0 6px #2980b9; /* 使用您的主色变量，这里假设为 #2980b9 */
+    transition: 0.3s;
+}
+
+#startAnalysisBtn:hover::after {
+    opacity: 0.2; /* 调整悬停时的透明度 */
+}
+
+#startAnalysisBtn:active::after {
+    box-shadow: none;
+    opacity: 0.4;
+    transition: 0s; /* 取消过渡 */
+}
+
+
+/*进度条*/
+
+.loading,
+.loading > div {
+    position: relative;
+    box-sizing: border-box;
+}
+
+.loading {
+    position: absolute;
+    left: 46%;
+    top: 46%;
+    transform: translate(-50%, -50%);
+    display: none;
+    font-size: 0;
+    color: #fff;
+    z-index: 999;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 0;
+    text-align: center;
+}
+
+.loading > div {
+    border: 12px solid #e8e8e8;
+    border-radius: 50%;
+    border-top: 12px solid #45b787;
+    width: 100px;
+    height: 100px;
+    animation: rotate 2s infinite;
+}
+
+.loadOk {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #ff0081;
+    color: #e8e8e8;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+.loadOk1{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2980b9;
+    color: #e8e8e8;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 999;
+}
+
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/*Analysis*/
+.modal-container {
+    display: none;
+    position: fixed;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.7);
+}
+#plotImageContainer {
+    max-width: 80%;  /* 图像容器最大宽度为父容器的100% */
+    max-height: 80vh;  /* 图像容器最大高度为视口高度的80% */
+    margin: 0 auto;  /* 居中显示图像 */
+    padding: 20px;
+    background: #fff;
+    width: 60%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#plotImageContainer img {
+    width: 100%;  /* 图像宽度为图像容器的100% */
+    height: auto;  /* 根据宽度自动调整高度，以保持图像比例 */
+    display: block;  /* 去掉图像底部的空白间隙 */
+}
+
+.close-btn {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close-btn:hover,
+.close-btn:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
